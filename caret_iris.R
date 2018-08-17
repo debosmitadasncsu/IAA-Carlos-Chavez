@@ -1,5 +1,5 @@
 #install.packages("caret", dependencies = TRUE)
-
+#changes
 library(caret)
 data("iris")
 dataset <- iris
@@ -12,10 +12,10 @@ validation_index <- createDataPartition(dataset$Species, p=0.8,
 
 
 
-##quedándose con el 20%
+##quedÃ¡ndose con el 20%
 validation <- dataset[-validation_index,]
 
-##quedándose con el 80%
+##quedÃ¡ndose con el 80%
 dataset <- dataset[validation_index,]
 
 

@@ -7,6 +7,11 @@ dataset <- iris
 validation_index <- createDataPartition(dataset$Species, p=0.8,
                                         list=FALSE)
 
+#this is the beginning
+
+
+
+
 ##quedándose con el 20%
 validation <- dataset[-validation_index,]
 

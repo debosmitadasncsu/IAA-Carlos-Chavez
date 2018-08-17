@@ -26,7 +26,7 @@ sapply(dataset, class)
 levels(dataset$Species)
 head(dataset)
 
-###################
+###############
 
 x <- dataset[,1:4]
 y <- dataset[,5]
